@@ -1,46 +1,6 @@
-// import { StyleSheet, Text, View, ImageBackground } from 'react-native'
-// import React from 'react'
-// import something from '@/assets/images/curry.jpg'
-
-// const index = () => {
-//   return (
-//     <View style={styles.container}>
-//       <ImageBackground
-//       source={something}
-//       resizeMode='cover'
-//       style={styles.image}>
-
-//       <Text style={styles.text}>Practice</Text>
-//       </ImageBackground>
-//     </View>
-//   )
-// }
-
-// export default index
-
-// const styles = StyleSheet.create({
-//   image: {
-//     width: '100px',
-//     height: '200px',
-//     margin: 'auto',
-//     flex: 1,
-//     resizeMode: 'cover',
-//     justifyContent: 'center'
-//   },
-//   container: {
-//     flex: 1,
-//     flexDirection: 'column',
-//   },
-//   text: {
-//     color: 'black',
-//     fontSize: 14,
-//     fontWeight: 'bold',
-//     textAlign: 'center', 
-//   }
-// })
-
 import React, { useState } from 'react'; 
 import { View, Button, ScrollView, StyleSheet } from 'react-native'; 
+//import * as todoService from '../services/todoService'
 import Cat from '../prop';
 import curry from '../../assets/images/curry.jpg';
 import jimmy from '../../assets/images/butler.jpg';
